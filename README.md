@@ -37,14 +37,20 @@ Below is a snapshot of the scraped data stored in the database:
 ## <a name="webpage"></a>Webpage
 
 We have created a [webpage](templates/index.html) using HTML, CSS and Bootstrap components to display the scraped data on the click of a button. This webpage displays the below information:
-1. Latest Mars News
-<p align="center"> <img src = "Images/news.png" width ="65%" border="10"> </p> 
-2. Featured Mars Image
-<p align="center"> <img src = "Images/featured_image.png" width ="45%" border="10"> </p> 
-3. Mars Facts
-<p align="center"> <img src = "Images/facts.png" width ="45%" border="10"> </p> 
-4. Images of Mars Hemispheres
-<p align="center"> <img src = "Images/hemisphere.png" width ="45%" border="10"> </p> 
+1. **Latest Mars News**
+
+<p align="center"> <img src = "Images/news.png" width ="65%" > </p> 
+
+2.  **Featured Mars Image**
+
+<p align="center"> <img src = "Images/featured_image.png" width ="45%"> </p> 
+
+3.  **Mars Facts**
+
+<p align="center"> <img src = "Images/facts.png" width ="45%"> </p> 
+
+4.  **Images of Mars Hemispheres**
+<p align="center"> <img src = "Images/hemisphere.png" width ="45%"> </p> 
 
 ## <a name="flask"></a>Flask
 Finally, we render the information on a webpage created with Flask. This python script imports the scraping script, and retrieves the required information from the NASA website, and displays it on the webpage created by us.
